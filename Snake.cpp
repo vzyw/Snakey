@@ -139,7 +139,7 @@ void Snake::checkThenGo(int x, int y){
 //Board
 Board::Board(int x, int y){
 	border = '+';
-	food = '*';
+	food = '$';
 	space = ' ';
 
 	board = new char[x*y];
